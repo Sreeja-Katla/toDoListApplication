@@ -1,0 +1,29 @@
+.container{
+  width: 50%;
+  height: 500px;
+margin-top: 50px;
+border: 1px solid ;
+box-shadow: inset;
+padding: 10px;
+.card{
+  // margin-top: 10px;
+  border-radius: 0px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  font-weight: 400;
+}
+}
+input{
+    height: 45px;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tasks{
+ height: 50px;
+ font-size: large;
+ button{
+  margin-top: 10px;
+
+ }
+}

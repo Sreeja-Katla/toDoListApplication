@@ -1,0 +1,26 @@
+<div class="container-fluid">
+  <!-- <div style="font-family:Arial, Helvetica, sans-serif;">
+    <h2>TO Do List</h2>
+  </div> -->
+
+<div class="card">
+     <form [formGroup]="reactiveForm" (ngSubmit)="onSubmit()">
+      <h1><b>Login Form</b></h1>
+      <div class="input-group">
+        <span class="material-icons"> account_circle</span>
+        <input id="email" type="text" formControlName="userEmail" name="email" placeholder="Email...">
+      </div>
+      <div class="input-group">
+        <span class="material-icons">key</span>
+        <input id="email" type="text" formControlName="userPassword" name="email" placeholder="Password...">
+      </div>
+      <div class="buttons" >
+        <button type="submit" class="btn btn-success"><h6 routerLinkActive="'active'"  routerLink="dashboard">Login</h6></button>
+        <button type="reset" class="btn btn-danger"><h6>Reset</h6></button>
+      </div>
+      <div>
+            <h5>Don't have Account?<a href="#">signIn</a></h5>
+      </div>
+     </form>
+</div>
+</div>

@@ -1,0 +1,39 @@
+*{
+  padding: 10px;
+  margin: auto;
+}
+.container-fluid{
+background-image: url('../../assets/todo1.jpg');
+height: 675px;
+background-size:cover ;
+background-repeat: no-repeat;
+text-align: center;
+display: flex;
+
+.card{
+  width: 500px;
+  height: 350px;
+  background-color: rgb(245, 241, 241);
+  opacity: 1;
+  margin-top:100px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  // text-align: center;
+  h1{
+    color: rgb(21, 19, 19);
+  }
+span{
+    background-color: black;
+    color: white;
+    height: 40px;
+  }
+  input{
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+  }
+}
+}
+button{
+  width: 120px;
+  margin-right: 10px;
+}
